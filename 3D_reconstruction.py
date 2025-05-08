@@ -245,7 +245,7 @@ def main():
     # File paths
 # Load paths and sort by numerical value in filename
     image_paths = sorted(
-    glob.glob('harry_teddy_v3/*.jpg'),
+    glob.glob('teddy_v3/*.jpg'),
     key=lambda x: int(re.findall(r'\d+', x)[-1])  #To ensure you oreder the photos for no jumps
 )
     calibration_path = 'Camera_matrix.txt'
