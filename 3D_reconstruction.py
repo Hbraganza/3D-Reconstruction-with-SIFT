@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 def reconstruct_3d(mtx, dist):
     orb = cv2.ORB_create()
     bf = cv2.BFMatcher(cv2.NORM_HAMMING, crossCheck=True)
-    images = [cv2.imread(os.path.join(r"C:\Users\Harry\OneDrive\Documents\Kings College London\Sensing and Perception\navi_v1.0\bunny_racer\multiview-10-canon_t4i\images", f"{i:03d}.jpg"), 0) 
+    images = [cv2.imread(os.path.join(r"C:\Users\Sensing and Perception\navi_v1.0\bunny_racer\multiview-10-canon_t4i\images", f"{i:03d}.jpg"), 0) 
               for i in range(35)]
     keypoints, descriptors = [], []
 
