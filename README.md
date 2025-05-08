@@ -54,4 +54,4 @@ Then, feature extraction is done on the object by looking at the vertices and ed
 <br/>
 An example of the feature matching on the teddy bear between two different images with the lines showing the matching features detected.
 <br/><br/>
-This then produces an make a point cloud using those matching features which is output as an stl file.
+This then produces an make a point cloud using those matching features which is output as an ply file, plus a .stl file using the poission meshing.
